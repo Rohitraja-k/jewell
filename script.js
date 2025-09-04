@@ -4,12 +4,12 @@ const formatINR = (num) => `₹${num.toLocaleString('en-IN')}`;
 // State
 const state = {
   products: [
-    { id: 'necklace-aurora', name: 'Aurora necklace', category: 'Ring', price: 150, img: 'assets/l1.png' },
-    { id: 'necklace-luna', name: 'Luna Necklace', category: 'Necklace', price: 150, img: 'assets/l2.png' },
-    { id: 'necklace-eden', name: 'Eden necklace', category: 'Ring', price: 150, img: 'assets/l3.png' },
-    { id: 'necklace-aria', name: 'Aria necklace', category: 'Bracelet', price: 150, img: 'assets/l4.png' },
-    { id: 'necklace-stella', name: 'Stella necklace', category: 'Earrings', price: 150, img: 'assets/l5.png' },
-    { id: 'necklace-nova', name: 'Nova necklace', category: 'Pendant', price: 150, img: 'assets/l5.png' },
+    { id: 'necklace-aurora', name: 'Aurora necklace', category: 'Ring', price: 150, img: 'l1.png' },
+    { id: 'necklace-luna', name: 'Luna Necklace', category: 'Necklace', price: 150, img: 'l2.png' },
+    { id: 'necklace-eden', name: 'Eden necklace', category: 'Ring', price: 150, img: 'l3.png' },
+    { id: 'necklace-aria', name: 'Aria necklace', category: 'Bracelet', price: 150, img: 'l4.png' },
+    { id: 'necklace-stella', name: 'Stella necklace', category: 'Earrings', price: 150, img: 'l5.png' },
+    { id: 'necklace-nova', name: 'Nova necklace', category: 'Pendant', price: 150, img: 'l5.png' },
   ],
   cart: [],
 };
@@ -233,5 +233,6 @@ function tryChromaKey(imgEl){
 // Init
 renderProducts();
 renderCart();
+
 
 
